@@ -1,0 +1,412 @@
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yuji+Syuku&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+    font-size: 22px;
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e0d2;
+}
+
+h1{
+    font-family: "Kode Mono", monospace;
+    background: rgba(229,218,210,0.5);
+    font-size: 3em;
+    color: brown;
+    font-weight: bold;
+    text-shadow: 3px 3px 6px #865F49;
+}
+
+h2{
+    font-family: "Kode Mono", monospace;
+    font-size: 2em;
+    color: brown;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px #865F49;
+}
+
+h3{
+    font-family: "Yuji Syuku", serif;
+    font-size: 1.5em;
+    color:#51463f;
+    font-weight: bold;
+    letter-spacing: .02rem;
+}
+
+h4{
+    font-family: "Yuji Syuku", serif;
+    font-size: 1.2em;
+    color:#51463f;
+    font-weight: bold;
+    letter-spacing: .02rem;
+}
+
+p{
+    font-family: "Yuji Syuku", serif;
+    line-height: 1.6;
+    letter-spacing: .01rem;
+}
+
+ul{
+    font-family: "Yuji Syuku", serif;
+    margin-top: 0em;
+    letter-spacing: .01rem;
+}
+
+span{
+    font-weight: bold;
+    font-size: 1.2em;
+    text-shadow: 2px 1px 0px #E1B07e;
+}
+
+.navigation{
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: flex-end;
+/*    Image reference: https://pinehallbrick.com/the-beautiful-look-of-old-brick/*/
+    background-image: url("img/wall.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+.navLinks{
+    display: flex;
+    font-size: 1.2em;
+    padding: 0.36em;
+    padding-right: 5%;
+    width: 100%;
+    justify-content: flex-end;
+    background: rgba(51,47,46,0.5);
+    font-family: "Kode Mono", monospace;
+}
+
+.navlink a{
+    font-weight: bold;
+    color:#E5DAD2;
+    text-decoration: none;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 0.36em;
+    padding-bottom: 0.36em;
+}
+
+.navlink a:hover {
+    background-color: rgba(168,96,69,0.8);
+}
+
+.navlink a:active {
+    background-color: rgba(168,96,69,0.8);
+    color: white;
+    text-decoration: underline;
+}
+
+.mainContainer{
+    padding-top:2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.topic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('img/introImage.jpeg');
+    background-size: cover;
+    background-position: center;
+}
+
+.intro{
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.introText{
+    display: flex;
+    width: 90%;
+    color: #865F49;
+}
+
+.homeDirectContainer{
+    display: flex;
+    flex-direction: column;
+    background-color: #E1B07E;
+    background-color: #C7A17D;
+    padding: 0.9em;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+}
+
+.prompt{
+    width: 90%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+}
+
+.promptImage{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.EPImageImg, .PPImageImg, .protectImageImg{
+    width: 90%;
+    aspect-ratio:  5/4;
+    border-radius: 20%;
+}
+
+.PPImageImg{
+    margin-left: auto;
+}
+
+.promptText{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    color: #51463f;
+}
+
+.exploreLinkContainer, .protectionLinkContainer{
+    display: flex;
+}
+
+.exploreLinkContainer{
+    display: flex;
+    justify-content: end;
+}
+
+.link{
+    background-image: url("img/wall.jpeg");
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+}
+
+.link a{
+    font-size: 1.2em;
+    background-color: #865F49;
+    background: rgba(51,47,46,0.5);
+    font-weight: bold;
+    color:#E5DAD2;
+    text-decoration: none;
+    padding: 0.3em;
+    padding-left: 0.6em;
+    padding-right: 0.6em;
+    font-family: "Kode Mono", monospace;
+}
+
+.link a:hover{
+    background-color: rgba(168,96,69,0.8);
+}
+
+.link a:active {
+    background-color: rgba(168,96,69,0.8);
+    color: white;
+    text-decoration: underline;
+}
+
+.artsGrid{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.artsColumn{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+
+.arts{
+    padding: 1em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.art1 {
+    background-color: #C7A17D;
+    color:#51463f;
+}
+
+.art2 {
+    background-color: #865F49;
+    color: #E5DAD2;
+}
+
+.art3 {
+    background-color: #C7A17D;
+    color:#51463f;
+}
+
+.art4 {
+    background-color: #E1B07e;
+    color: #51463f;
+}
+
+.art5 {
+    background-color: #A86045;
+    color: #E5DAD2;
+}
+
+.art6 {
+    background-color: #E1B07e;
+    color: #51463f;
+}
+
+.artImage{
+    width: 75%;
+    aspect-ratio:  5/4;
+    border-radius: 20%;
+}
+
+.artGridIntro{
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+
+.introMainContainer{
+    margin: 2em;
+    margin-top: 0em;
+}
+
+.backButton{
+    display: flex;
+}
+
+.artIntro{
+    display: flex;
+    flex-direction: column;
+    color:#51463f;
+}
+
+.artIntro h3{
+    margin: 0px;
+}
+
+.videoContainer{
+    display: flex;
+    justify-content: center;
+}
+
+.kiteImageContainer, .bambooImageContainer, .inkPaintingImageContainer{
+    margin: 1em;
+    display: flex;
+    justify-content: center;
+    gap: 3%;
+}
+
+.kiteImage, .bambooWeavingImage, .paintingImage{
+    width: 30vw;
+    aspect-ratio:  6/5;
+}
+
+.lightBrownSpan{
+    text-shadow: 2px 1px 0px #d2c0b4;
+}
+
+.darkSpan{
+    text-shadow: 2px 1px 0px #51463f;
+}
+
+.silkMakingContainer, .sealEngravingContainer{
+    margin: 1em;
+    display: flex;
+    justify-content: center;
+}
+
+.silkMakingImage, .sealEngravingImage{
+    width: 40vw;
+    aspect-ratio:  6/5;
+}
+
+.leftPainting, .rightPainting{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#inkPaintingHistory{
+    margin-top: 0em;
+}
+
+.protectIntro{
+    display: flex;
+    height: 100vh;
+    background-image: url('img/protectIntroImage2.jpeg');
+    background-size: cover;
+    background-position: center;
+    z-index: -2;
+}
+
+.protectIntroText{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    width: 60vw;
+    color: #51463f;
+    z-index: -1;
+    background: rgba(255,255,255,0.5);
+    padding: 1em;
+}
+
+.protectIntroText h1{
+    color: #A86045;
+    font-family: "Kode Mono", monospace;
+    font-size: 3em;
+    font-weight: bold;
+    text-shadow: 3px 3px 6px white;
+    background-color: transparent;
+    margin-bottom: 0em;
+}
+
+.protectIntroText p{
+    color: #51463f;
+}
+
+.protectMain{
+    display: flex;
+    flex-direction: column;
+    margin: 3em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    color: #51463f;;
+}
+
+.marketMain h2{
+    color: #A86045;
+    text-shadow: 3px 3px 6px white;
+    margin-bottom: 0em;
+}
+
+.protectSec{
+    display: flex;
+    gap: 1em;
+    justify-content: center;
+    align-items: center;
+}
+
+.protectText{
+    width: 90%;
+}
+
+.protectImage{
+    width: 50%;
+}
