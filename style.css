@@ -411,19 +411,27 @@ span{
     width: 50%;
 }
 
+@media only screen and (min-width: 640px) and (max-width: 1024px) {
+    body{
+        font-size: 15px;
+    }
+}
+
 @media only screen and (max-width: 640px) {
     body{
         font-size: 12px;
     }
 
     .navLinks{
-        display: flex;
-        font-size: 1.2em;
-        padding: 0.36em;
-        padding-right: 5%;
-        width: 100%;
-        justify-content: space-between;
-        background: rgba(51,47,46,0.5);
-        font-family: "Kode Mono", monospace;
+        justify-content: space-around;
+    }
+
+    .navlink a{
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+
+    .topic{
+        height: 40vh;
     }
 }
