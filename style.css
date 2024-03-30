@@ -151,7 +151,6 @@ span{
     align-items: center;
     justify-content: center;
     display: flex;
-
 }
 
 .promptImage{
@@ -411,9 +410,13 @@ span{
     width: 50%;
 }
 
+.onlySmallScreen{
+    display: none;
+}
+
 @media only screen and (min-width: 640px) and (max-width: 1024px) {
     body{
-        font-size: 15px;
+        font-size: 17px;
     }
 }
 
@@ -433,5 +436,37 @@ span{
 
     .topic{
         height: 40vh;
+    }
+
+    .prompt{
+        flex-direction: column;
+        margin: 1em;
+    }
+
+    .promptImage{
+        display: flex;
+        width: 70%;
+    }
+
+    .promptText{
+        width: 80%;
+    }
+
+    .exploreLinkContainer, .protectionLinkContainer{
+        display: flex;
+        justify-content: center;
+    }
+
+    .link a{
+        padding-left: 0.8em;
+        padding-right: 0.8em;
+    }
+
+    .onlyBigScreen{
+        display: none;
+    }
+
+    .PPImageImg{
+        margin-left: 0em;
     }
 }
