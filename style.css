@@ -64,6 +64,11 @@ span{
     text-shadow: 2px 1px 0px #E1B07e;
 }
 
+iframe{
+    width: 70%;
+    aspect-ratio: 16/9;
+}
+
 .navigation{
     width: 100%;
     position: fixed;
@@ -425,6 +430,10 @@ span{
         font-size: 12px;
     }
 
+    iframe{
+        width: 80%;
+    }
+
     .navLinks{
         justify-content: space-around;
     }
@@ -468,5 +477,14 @@ span{
 
     .PPImageImg{
         margin-left: 0em;
+    }
+
+    .artsGrid{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .artsColumn{
+        width: 80%;
     }
 }
