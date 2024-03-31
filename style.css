@@ -435,10 +435,8 @@ iframe{
     }
 
     h3{
-        font-family: "Yuji Syuku", serif;
         font-size: 1.3em;
-        color:#51463f;
-        font-weight: bold;
+        letter-spacing: .00001em;
     }
 
     .navLinks{
