@@ -431,7 +431,7 @@ iframe{
     }
 
     iframe{
-        width: 85%;
+        width: 90%;
     }
 
     h3{
@@ -491,6 +491,16 @@ iframe{
 
     .artsColumn{
         width: 80%;
+    }
+
+    .kiteImage, .bambooWeavingImage, .paintingImage{
+        width: 40vw;
+        aspect-ratio:  6/5;
+    }
+
+    .silkMakingImage, .sealEngravingImage{
+        width: 50vw;
+        aspect-ratio:  6/5;
     }
 
     .protectIntro{
